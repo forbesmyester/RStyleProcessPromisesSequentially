@@ -1,0 +1,20 @@
+{
+  "name": "RStyleProcessPromisesSequentially",
+  "version": "1.0.0",
+  "description": "Run a set of data through a worker, which returns Promises and eventually returns a Promise of all results",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js && eslint test/index.js && mocha test/*.js"
+  },
+  "keywords": [
+    "promise",
+    "ramda"
+  ],
+  "author": "Matthew Forrester <github.com@speechmarks.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^0.21.2",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.2.5"
+  }
+}
