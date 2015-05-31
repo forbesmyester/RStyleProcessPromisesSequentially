@@ -1,7 +1,7 @@
 {
   "name": "RStyleProcessPromisesSequentially",
   "version": "1.0.0",
-  "description": "Run a set of data through a worker, which returns Promises and eventually returns a Promise of all results",
+  "description": "Run a set of data sequentially through a worker, which returns Promises and eventually returns a Promise of all results",
   "main": "index.js",
   "scripts": {
     "test": "eslint index.js && eslint test/index.js && mocha test/*.js"
