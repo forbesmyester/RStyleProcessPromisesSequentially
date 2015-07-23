@@ -26,6 +26,6 @@ module.exports = function promiseMap(worker, data) {
 
     }
 
-    return runNext(JSON.parse(JSON.stringify(data)));
+    return runNext(data);
 };
 
